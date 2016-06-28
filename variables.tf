@@ -9,3 +9,7 @@ variable "tf_public_key_a" {
 variable "tf_public_key_b" {
   default = "peppermint"
 }
+
+variable "tf_bucket_name" {
+  default = "atlas-demo-test"
+}
